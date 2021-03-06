@@ -4,13 +4,12 @@ const accordion = (triggersSelector) => {
     btns.forEach(btn => {
         btn.addEventListener('click', function() {
 
-            if (this.classList.contains('active-style' = false)) {
             for (var i = 0; i < btns.length; i++){
                 btns[i].classList.remove('active-style');
                 btns[i].nextElementSibling.classList.remove('active-content');
                 btns[i].nextElementSibling.style.maxHeight = '0px';
             }
-        }
+
             this.classList.toggle('active-style');
             this.nextElementSibling.classList.toggle('active-content');
 
