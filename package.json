@@ -2,7 +2,7 @@
   "name": "picture",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://kovernikov.github.io/paintAPicture",
+  "homepage": "https://kovernikov.github.io/paintAPicture/",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
